@@ -34,7 +34,7 @@
 //MX28
 #define MX28_USB_PID 0x004f
 
-enum DeviceType { MX23 = 0, MX28, MX50, MX6Q, MX6D, MX6SL, MX6SX, MX7D, MX6UL, MX6ULL, NoDev };
+enum DeviceType { MX23 = 0, MX28, MX50, MX6Q, MX6D, MX6SL, MX6SX, MX7D, MX6UL, MX6ULL, TRDX_SDP, NoDev };
 
 struct _HID_DATA_REPORT
 {
